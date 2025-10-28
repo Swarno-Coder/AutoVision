@@ -3,7 +3,7 @@ import torch.nn as nn
 import torchvision.models as models
 from torchvision import transforms
 
-NUM_CLASSES = 7  # 6 defects + normal
+NUM_CLASSES = 6  # crazing, inclusion, patches, pitted_surface, rolled-in_scale, scratches
 
 def get_model(pretrained=True):
     model = models.resnet18(pretrained=pretrained)

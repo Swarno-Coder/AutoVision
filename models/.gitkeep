@@ -1,0 +1,12 @@
+# Models Directory
+
+Place your trained models here:
+- `resnet18_anomaly.pth` - PyTorch model weights
+- `resnet18_anomaly.onnx` - ONNX format for deployment
+
+To train the model:
+```bash
+python src/train.py
+```
+
+The trained models will be automatically saved to this directory.

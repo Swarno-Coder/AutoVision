@@ -1,0 +1,114 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.pyc
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# PyTorch Models
+*.pth
+*.onnx
+*.pt
+models/*.pth
+models/*.onnx
+!models/.gitkeep
+
+# Dataset (too large for git)
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+!results/.gitkeep
+
+# Results and outputs
+results/
+*.png
+*.jpg
+*.jpeg
+api_test_gradcam.jpg
+preprocess_test.jpg
+gradcam_example.jpg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Streamlit
+.streamlit/
+
+# Docker
+*.dockerignore
+
+# System Files
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
